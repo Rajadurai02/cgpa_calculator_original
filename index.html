@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CGPA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+
+<body>
+  <div id="div1">
+    <img src="logo.png" alt="logo" height="60" height="60">
+  </div>
+  <header>
+    <hr>
+    <h2>ANNA UNIVERSITY CGPA CALCULATOR</h2>
+    <hr>
+</header>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html"  class="active"><i class="fas fa-home"></i>Home</a>
+        <a href="login.html"><i class="fas fa-sign-in-alt"></i>sign in</a>
+        <a href="cgpa.html" target="_blank"><i class="fas fa-atlas"></i>CGPA</a>
+        <a href="selector.html" target="_blank"><i class="fas fa-calculator"></i></i>GPA</a>
+        <a href="quickcgpa.html" target="_blank"><i class="fas fa-atlas"></i>QUICK-CGPA</a>
+        <a href="about.html"><i class="fas fa-address-card"></i>about</a>
+        <a href="contact.html"><i class="fas fa-phone"></i>contact us</a>
+        <a href="feedback.html"><i class="fas fa-comments"></i>feedback</a>
+        <a href="index.html"><i class="fas fa-sign-out-alt"></i>log-out</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    <div class="image">
+      <img src="univ.jpg" alt="university" width="1250px" height="300px">
+    </div>
+    <div class="card1">
+      <a href="cgpa.html" target="_blank"><img src="CARD1.png" alt="image of cgpa">
+      </a>
+      <h2 class="card">CGPA</h2><hr id="hori">
+      <p class="text"><strong>CGPA</strong>is calculated by based on all semester gpa and total credits.</p>
+  </div>
+  <div class="card2">
+      <a href="selector.html" target="_blank"><img src="CARD2.png" alt="image of gpa"></a>
+      
+      <h2 class="card">GPA</h2><hr id="hori">
+      <p class="text"><strong>GPA</strong>is calculated based on the particular semester grade points and  total credit.</p>
+  </div>
+  <div class="card3">
+    <a href="quickcgpa.html" target="_blank"><img src="CARD3.png" alt="image of cgpa"></a>
+      
+      <h2 class="card">QUICK-CGPA</h2><hr id="hori">
+      <p class="text"><strong>QUICK-CGPA</strong>is calculated by based on previous and current  gpa and total credits.</p>
+  </div>
+    
+  <div class="sometext">
+      <h3>Note:</h3>
+      <p>We have provided the calculator to calculate the Anna University CGPA for regulation 2017.</p>
+      <h3>Anna University CGPA Calculation Formula:</h3>
+      <p>The Formula used to Calculate the Anna University CGPA is</p>
+      <img src="formula.png" alt="formula"> 
+      <p>where</p> 
+      <p>Ci is the number of Credits assigned to the course</p> 
+      <p>GPi is the point corresponding to the grade obtained for each course</p>  
+      <p>n is number of all courses successfully cleared during the particular semester in the case of GPA and during all the semesters in the case of CGPA.</p> 
+      <p>As Students feel difficult to calculate the CGPA manually, We have provided the CGPA calculator to make the students feel easy. Calculate the CGPA  fast and accurate than before.</p>  
+         
+        
+    </div> 
+</body>
+
+<footer>
+    <h3>© online cgpa calculator - All Rights Reserved. | Privacy Policy | Guidelines</h3>
+</footer>
+</html>  

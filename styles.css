@@ -1,0 +1,134 @@
+body{
+    background-color: #fff;
+}
+#div1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:purple;
+  padding:0px;
+}
+header{
+  background-color:#fff;
+  padding:2px; 
+  text-align: center;
+  font-size: 20px;
+  color:black;
+  font-style: italic;
+    
+}
+
+
+hr{
+    border:2px solid purple;
+}
+.topnav {
+    overflow: hidden;
+    background-color: purple;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+  }
+  .topnav a i{
+    padding:10px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:black;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+.image{
+    width: 100%;
+    height: 300px;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.card1,.card2,.card3{
+  width:350px;
+  height:300px;
+  background-color: rgb(247, 243, 243);
+  position: relative;
+  margin: 30px 30px;
+  float:left;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card1:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 12px 40px 0 rgba(0,0,0,0.3);
+}
+.card2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 12px 40px 0 rgba(0,0,0,0.3);
+}
+.card3:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 12px 40px 0 rgba(0,0,0,0.3);
+}
+#hori{
+  border: 1px solid black;
+}
+.card{
+  font-size: 25px;
+  padding-left:20px;
+  color: black;
+  
+}
+.text{
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 1.7;
+  word-spacing: 2px;
+  color: black;
+  
+}
+strong{
+  padding-right:5px;
+}
+footer{
+    background-color: purple;
+    padding: 5px;
+    text-align: center;
+}
+p{
+  font-size: 18px;
+}
+.sometext{
+  padding-left: 20px;
+}

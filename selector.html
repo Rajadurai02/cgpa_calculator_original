@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="selector.css" type="text/css">
+    <title>select</title>
+</head>
+<script>
+    function validate(){
+        var dept=document.getElementById("dept").value;
+        var sem=parseInt(document.getElementById("sem").value);
+
+        if(dept=="cse"){
+            if(sem=="1"){
+                window.location.href="cse/sem1.html";
+            }
+            else if(sem=="2"){
+                window.location.href="cse/sem2.html";
+            }
+            else if(sem=="3"){
+                window.location.href="cse/sem3.html";
+            }
+            else if(sem=="4"){
+                window.location.href="cse/sem4.html";
+            }
+            else if(sem=="5"){
+                window.location.href="cse/sem5.html";
+            }
+            else if(sem=="6"){
+                window.location.href="cse/sem6.html";
+            }
+            else if(sem=="7"){
+                window.location.href="cse/sem7.html";
+            }
+            else{
+                window.location.href="cse/sem8.html";
+            }
+        }
+        else if(dept=="ece"){
+            if(sem=="1"){
+                window.location.href="ece/sem1.html";
+            }
+            else if(sem=="2"){
+                window.location.href="ece/sem2.html";
+            }
+            else if(sem=="3"){
+                window.location.href="ece/sem3.html";
+            }
+            else if(sem=="4"){
+                window.location.href="ece/sem4.html";
+            }
+            else if(sem=="5"){
+                window.location.href="ece/sem5.html";
+            }
+            else if(sem=="6"){
+                window.location.href="cse/sem6.html";
+            }
+            else if(sem=="7"){
+                window.location.href="ece/sem7.html";
+            }
+            else{
+                window.location.href="ece/sem8.html";
+            }
+        }
+        else if(dept=="eee"){
+            if(sem=="1"){
+                window.location.href="eee/sem1.html";
+            }
+            else if(sem=="2"){
+                window.location.href="eee/sem2.html";
+            }
+            else if(sem=="3"){
+                window.location.href="eee/sem3.html";
+            }
+            else if(sem=="4"){
+                window.location.href="eee/sem4.html";
+            }
+            else if(sem=="5"){
+                window.location.href="eee/sem5.html";
+            }
+            else if(sem=="6"){
+                window.location.href="eee/sem6.html";
+            }
+            else if(sem=="7"){
+                window.location.href="eee/sem7.html";
+            }
+            else{
+                window.location.href="eee/sem8.html";
+            }
+        }
+        else if(dept=="mech"){
+            if(sem=="1"){
+                window.location.href="mech/sem1.html";
+            }
+            else if(sem=="2"){
+                window.location.href="mech/sem2.html";
+            }
+            else if(sem=="3"){
+                window.location.href="mech/sem3.html";
+            }
+            else if(sem=="4"){
+                window.location.href="mech/sem4.html";
+            }
+            else if(sem=="5"){
+                window.location.href="mech/sem5.html";
+            }
+            else if(sem=="6"){
+                window.location.href="mech/sem6.html";
+            }
+            else if(sem=="7"){
+                window.location.href="mech/sem7.html";
+            }
+            else{
+                window.location.href="mech/sem8.html";
+            }
+        }
+        else{
+            alert("please select any option")
+        }
+    }
+</script>
+<body>
+    <div class="deptsel">
+        <h1>department selction.</h1>
+        <label for="dept">please select your department:</label>
+        <select name="dept" id="dept">
+            <option value="cse">Computer Science and Engineering</option>
+            <option value="ece">Electronics and Communication Engineering</option>
+            <option value="eee">Electrical and Electronics Engineering</option>
+            <option value="mech">Mechanical Engineering</option>
+        </select>
+    </div>
+    <div class="semsel">
+        <h1>semester selection</h1>
+        <label for="sem">please select a semester:</label>
+        <select name="sem" id="sem">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+    </div>
+    <input type="submit" id="submit" onclick="validate()">
+    
+</body>
+</html>
